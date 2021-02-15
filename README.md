@@ -13,7 +13,8 @@
 [html5 shiv link](https://cdnjs.com/libraries/html5shiv)
 
 ## Respond .js:
-[Respond .js cdn link]("https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js")
+[Respond .js cdn link]("https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/")
+
 ## photoshop shortcuts for PSD File:
 select object:
 ` ctrl + left click on the selected layer `
