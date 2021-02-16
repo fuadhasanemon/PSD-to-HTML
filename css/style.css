@@ -70,8 +70,12 @@ table {
 	src: local('HelveticaNeue-Thin.otf'), url('HelveticaNeue-Thin.otf') format('opentype');
 }
 
+* {
+	box-sizing: border-box; 
+ }
+
 .container {
-    max-width: 1150px;
+    max-width: 1100px;
     width: 100%;
     margin: 0 auto;
 	position: relative;
@@ -81,10 +85,12 @@ table {
 
 body {
 
-	font-family: 'HelveticaNeue-Thin';
-	/* font-family: 'Montserrat', sans-serif; */
+	/* font-family: 'HelveticaNeue-Thin';  */
+	font-family: 'Montserrat', sans-serif;
 
 }
+
+	/* Hero section */
 
 #hero {
 	background-image: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)), url(/img/hero-bg.png);
@@ -170,4 +176,49 @@ h2 {
 .small-phon-icone {
 	vertical-align: middle;
 	padding-right: 20px;
+}
+
+/* APP FEATURES */
+
+#app-features .container {
+	text-align: center;
+	padding: 60px 20px;
+}
+
+#app-features h2 {
+	color: #8a8a8a;
+	margin-bottom: 40px;
+}
+
+.p-features {
+	font-family: 'HelveticaNeue-Thin'; 
+	font-size: 22px;
+	line-height: 28px;
+	padding: 0px 130px;
+}
+
+.col-4-app {
+	width: 33.33%;
+	float: left;
+	padding: 0px 45px;
+}
+
+.col-4-app p {
+	font-family: 'HelveticaNeue-Thin'; 
+	font-size: 18px;
+	line-height: 24px;
+	color: #8a8a8a;
+}
+
+.row {
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.row h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 30px 0px;
+
 }
