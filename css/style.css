@@ -90,7 +90,7 @@ body {
 
 }
 
-	/* Hero section */
+	/* Hero section BEGINS*/
 
 #hero {
 	background-image: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)), url(/img/hero-bg.png);
@@ -178,6 +178,8 @@ h2 {
 	padding-right: 20px;
 }
 
+/* Hero section END*/
+
 /* APP FEATURES */
 
 #app-features .container {
@@ -222,3 +224,51 @@ h2 {
 	margin: 30px 0px;
 
 }
+
+/* APP FEATURES END*/
+
+/* Nose section Begins */
+
+#nose {
+	background: url(/img/nose-bg.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.download-info {
+	width: 50%;
+	padding: 200px 0px;	
+}
+
+#nose h2 {
+	margin-bottom: 40px;
+	color: white;
+}
+
+.nose-p {
+	font-family: 'HelveticaNeue-Thin';
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 60px; 
+}
+
+.download-btn {
+	padding: 15px;
+	background: #d9332d;
+	color: white;
+	font-size: 20px;
+	border-radius: 50px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.download-btn:hover {
+	background: #c33934;
+	transition: 0.3s;
+}
+
+.redish {
+	color: #f55150;
+}
+
+/* NOSE SECTION END */
