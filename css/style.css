@@ -337,3 +337,36 @@ footer p {
 	display: block;
 	margin-top: 5px;
 }
+
+.copyright .container {
+	padding: 30px;
+	text-align: center;
+	
+}
+
+.copyright {
+	background-color: #d7dedc;
+}
+
+.inline {
+	display: inline-block;
+	font-size: 15px;
+	vertical-align: middle;
+}
+
+.cr,
+.me {
+	margin-right: 40px;
+}
+
+.fb,
+.tw {
+	margin-right: 40px;
+}
+
+.cr:after,
+.me:after {
+	content: "";
+	border: 1px solid #555555;
+	margin-left: 35px;
+}
