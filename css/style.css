@@ -350,7 +350,7 @@ footer p {
 
 .inline {
 	display: inline-block;
-	font-size: 15px;
+	font-size: 15 px;
 	vertical-align: middle;
 }
 
@@ -370,3 +370,13 @@ footer p {
 	border: 1px solid #555555;
 	margin-left: 35px;
 }
+
+/* Animations */
+
+.iphone-on {
+	position: absolute;
+	right: 178px;
+	top: 125px;
+	width: 57%;
+}
+
