@@ -93,7 +93,7 @@ body {
 	/* Hero section BEGINS*/
 
 #hero {
-	background-image: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)), url(/img/hero-bg.png);
+	background-image: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)), url(../img/hero-bg.png);
 	background-image: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -123,7 +123,7 @@ h2 {
 	transition: border-bottom 0.1s, color 0.1s;
 }
 
-#hero h2{
+#hero h2 {
 	color: white;
 	padding-bottom: 40px;
 }
@@ -230,7 +230,7 @@ h2 {
 /* Nose section Begins */
 
 #nose {
-	background: url(/img/nose-bg.png);
+	background: url(../img/nose-bg.png);
 	background-size: cover;
 	background-position: center;
 }
@@ -314,7 +314,7 @@ footer p {
 }
 
 .reddish-bg {
-	background: url(/img/rectangle.png) no-repeat;
+	background: url(../img/rectangle.png) no-repeat;
 }
 
 .block {
