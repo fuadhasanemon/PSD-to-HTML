@@ -30,3 +30,6 @@ ctrl + V `
 
 ## save as web:
 ` ctrl + alt + shift + s `
+
+
+## Clone it and Run `index.htm` file
